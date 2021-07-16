@@ -3,6 +3,17 @@ layout: default
 title: Hemanth Kumar Narra, Introvert
 ---
 
-<div class="blurb">
-	<h1>Hemanth Kumar Narra</h1>
+<div class="container">
+    <div class="recent-posts">
+        <h3>Recent Posts</h3>
+    </div>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <span>{{ post.date | date_to_string }}</span> 
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.excerpt }}
+        </li>
+        {% endfor %}
+    </ul>
 </div>
