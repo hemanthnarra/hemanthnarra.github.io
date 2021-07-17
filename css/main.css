@@ -8,3 +8,6 @@ body {
 a {
     color: #cf77e0;
 }
+a:hover {
+    color: #fcf988;
+}
