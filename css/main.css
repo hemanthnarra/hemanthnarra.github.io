@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
 body {
     background-color: #2b3d4f;
     color: #ccd;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Nunito', sans-serif;
 }
 a {
     color: #ed0978;
