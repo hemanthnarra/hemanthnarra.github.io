@@ -11,6 +11,9 @@ a {
 a:hover {
     color: #fcf988;
 }
+.nav-link {
+    color: #f9fc32;
+}
 
 /* test 
 .footer {
