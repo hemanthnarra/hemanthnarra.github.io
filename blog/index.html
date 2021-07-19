@@ -9,7 +9,7 @@ title: Hemanth Kumar Narra's Blog
         <br>
         <ul class="list-unstyled">
             {% for post in site.posts %}
-            <li> <mark>{{ post.date | date_to_string }}</mark> ~ <p><a href="{{ post.url }}">{{ post.title }}</a></p> </li>
+            <li><span><mark>{{ post.date | date_to_string }}</mark></span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>            
     </div>
