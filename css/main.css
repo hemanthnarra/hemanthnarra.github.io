@@ -15,6 +15,9 @@ a:hover {
 .nav-link {
     color: #f9fc32;
 }
+p { 
+    font-size: 1.5em; line-height: 1.4em; 
+}
 
 /* test 
 .footer {
