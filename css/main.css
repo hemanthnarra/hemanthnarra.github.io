@@ -16,7 +16,7 @@ a:hover {
     color: #f9fc32;
 }
 
-p.excerpt { font-size: 1.5em; line-height: 1.4em; }
+.excerpt { font-size: 1.5em; line-height: 1.4em; }
    
 /* test 
 .footer {
