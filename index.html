@@ -11,7 +11,7 @@ title: Hemanth Kumar Narra, Introvert
     <ul class="list-unstyled">
         {% for post in site.posts %}
         <li>
-            <p><mark>{{ post.date | date_to_string }}</mark></p>
+            <span><mark>{{ post.date | date_to_string }}</mark></span>
             <p class="h3">{{ post.title }}</p>
             <p class="excerpt">{{ post.excerpt }}</p>
             <a class="btn btn-primary btn-sm" href="{{ post.url }}" role="button">READ MORE</a>
