@@ -8,10 +8,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 a {
-    color: #ed0978;
+    color: #fcf988;
 }
 a:hover {
-    color: #fcf988;
+    color: #ed0978;
 }
 .nav-link {
     color: #f9fc32;
