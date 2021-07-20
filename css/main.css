@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body {
     background-color: #2b3d4f;
@@ -16,7 +17,11 @@ a:hover {
     color: #f9fc32;
 }
 
-p { font-size: 1.5em; line-height: 1.4em; }
+p { 
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em; 
+    line-height: 1.4em; 
+}
    
 /* test 
 .footer {
