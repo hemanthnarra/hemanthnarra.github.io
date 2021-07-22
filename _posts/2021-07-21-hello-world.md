@@ -2,7 +2,6 @@
 published: true
 layout: post
 title: 'Hello,World'
-date: {}
 ---
 # Hello world, This is my website 
 **The proud thing about this website is that I am the one who coded this website entirely without using any templates or themes that are freely available on the internet.**
