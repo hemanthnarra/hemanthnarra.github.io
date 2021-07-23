@@ -12,4 +12,5 @@ So, I have been looking for a simple hosting platform that is free for my needs.
 
 I'm not going to talk about how to create a website with Github pages, hosting, and stuff. There are plenty of tutorials available which explain all those things neatly. But I will give you one which is a beginner-friendly tutorial: [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/). 
 
+Okay lets test this image ![My helpful screenshot](/Brahmi.jpg)
 
