@@ -1,9 +1,9 @@
 ---
 published: true
 layout: post
-title: 'Hello,World'
+title: 'Hello world, This is my website'
 ---
-# Hello world, This is my website 
+ 
 **The proud thing about this website is that I am the one who coded this website entirely without using any templates or themes that are freely available on the internet.**
 
 Okay let me tell you the back story, I've been trying to create a website for so long to write blog posts and also like simple about me page. But, After trying so many things like blogger and WordPress and some free blogging platforms. None of them gave me satisfaction. Of course, there are paid one's too but I feel like they are too expensive at least for me. 
