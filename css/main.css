@@ -27,3 +27,6 @@ footer li {
     list-style-type: none;
     padding-left: 0;
 }
+.copy-right {
+    margin-left: 20px;
+}
