@@ -23,10 +23,16 @@ footer li {
     display: inline-block;
     margin-left: 20px;
 }
+.recent-posts {
+    margin-left: 20px;
+}
 .recent-posts ul {
     list-style-type: none;
     padding-left: 0;
 }
 .copy-right {
+    margin-left: 20px;
+}
+.intro {
     margin-left: 20px;
 }
