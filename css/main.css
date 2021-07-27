@@ -10,8 +10,5 @@
 }
 .menus {
     display: inline-block;
-}
-.menus-1 {
-    display: inline-block;
-    margin-left: 40px;
+    margin-left: 40%;
 }
