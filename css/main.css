@@ -6,6 +6,10 @@ body {
     font-family: lato;
     background-size: cover;
 }
+a {
+    text-decoration: none;
+    color: #f36300;
+}
 .menu {
     border-bottom: 2px solid gold;
 }
