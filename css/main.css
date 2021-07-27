@@ -53,3 +53,10 @@ footer li {
     margin-left: 20px;
     margin-right: 40px;
 }
+.blog {
+    margin-left: 20px;
+}
+.blog-list {
+    list-style-type: none;
+    padding-left: 0;
+}
