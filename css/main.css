@@ -8,7 +8,9 @@
     list-style-type: none;
     padding-left: 0%;
 }
-.menus {
+.menu-items li {
     display: inline-block;
-    margin-left: 70px;
+}
+.menus-1 {
+    margin-left: 40px;
 }
