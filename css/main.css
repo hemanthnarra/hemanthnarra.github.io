@@ -1,30 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-body {
-    background-color: #2b3d4f;
-    color: #ccd;
-    font-family: 'Nunito', sans-serif;
+.menu {
+    border-bottom: 1px solid black;
 }
-a {
-    color: #fcf988;
+.menu ul {
+    list-style-type: none;
+    padding-left: 0%;
 }
-a:hover {
-    color: #ed0978;
+.menus {
+    display: inline-block;
 }
-.nav-link {
-    color: #f9fc32;
-}
-
-p { 
-    font-family: 'Lato', sans-serif;
-    font-size: 1.25em; 
-    line-height: 1.4em; 
-}
-   
-/* test 
-.footer {
-    background-color: #ccd;
-} 
-failed */ 
-
