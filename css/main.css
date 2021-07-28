@@ -5,11 +5,27 @@ body {
     padding: 0;
     font-family: lato;
     background-size: cover;
-    text-align: center;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.7em;
+}
+h3 {
+    font-size: 2.3em;
+}
+h4 {
+    font-size: 1.9em;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
 a {
     text-decoration: none;
-    color: #f36300;
+    color: #b5da15;
 }
 .menu {
     border-bottom: 2px solid gold;
