@@ -12,7 +12,3 @@ nav li, footer li {
     list-style-type: none;
     padding-left: 0;
 }
-.recent-posts li, .blog li {
-    display: inline-block;
-    margin-right: 16px;
-}
