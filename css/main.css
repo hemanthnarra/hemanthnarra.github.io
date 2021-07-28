@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300");
 
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 nav ul, footer ul {
     list-style-type: none;
     padding-left: 0;
