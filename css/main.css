@@ -12,3 +12,9 @@ nav li, footer li {
     list-style-type: none;
     padding-left: 0;
 }
+.w3-container {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
