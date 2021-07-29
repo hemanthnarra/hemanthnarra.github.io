@@ -17,8 +17,7 @@ nav {
 .intro:after {
     content: "";
     display: block;
-    margin: 0 auto;
-    width: 50%;
+    width: 30%;
     padding-top: 20px;
     border-bottom: 2px solid gold;
 }
