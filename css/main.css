@@ -11,6 +11,8 @@ nav {
     background-color: white;
     position: sticky;
     top: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 nav ul, footer ul {
