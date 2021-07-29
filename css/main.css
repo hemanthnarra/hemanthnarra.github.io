@@ -28,6 +28,9 @@ nav {
     padding-top: 20px;
     border-top: 2px solid gold;
 }
+.main, .blog, .about {
+    padding-bottom: 20px;
+}
 nav ul, footer ul {
     list-style-type: none;
     padding-left: 0;
