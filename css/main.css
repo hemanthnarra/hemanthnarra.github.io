@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300");
 
+nav {
+    position: sticky;
+    top: 0;
+}
+
 nav ul, footer ul {
     list-style-type: none;
     padding-left: 0;
@@ -11,10 +16,4 @@ nav li, footer li {
 .recent-posts ul, .blog ul {
     list-style-type: none;
     padding-left: 0;
-}
-.w3-container {
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
