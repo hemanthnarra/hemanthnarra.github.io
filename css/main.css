@@ -6,6 +6,10 @@ body {
     max-width: 740px;
     margin: auto;
 }
+.w3-container {
+    padding-left: 16px;
+    padding-right: 10px;
+}
 p {
     font-size: 1.25em;
     line-height: 1.4em;
@@ -14,7 +18,7 @@ p {
 }
 a {
     background-color: transparent;
-    color: #455a64;
+    color: goldenrod;
     text-decoration: none;
     transition: color .1s ease-in-out;
 }
@@ -48,8 +52,8 @@ nav {
     padding-bottom: 20px;
 }
 nav ul, footer ul {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.25em;
+    font-weight: inherit;
     list-style-type: none;
     padding-left: 0;
 }
@@ -60,4 +64,7 @@ nav li, footer li {
 .recent-posts ul, .blog ul {
     list-style-type: none;
     padding-left: 0;
+}
+.recent-posts a, .blog a {
+    font-size: 1.25em;
 }
