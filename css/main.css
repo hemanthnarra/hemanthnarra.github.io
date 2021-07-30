@@ -64,7 +64,5 @@ nav li, footer li {
 .recent-posts ul, .blog ul {
     list-style-type: none;
     padding-left: 0;
-}
-.recent-posts a, .blog a {
     font-size: 1.25em;
 }
