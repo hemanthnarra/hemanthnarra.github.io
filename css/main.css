@@ -14,6 +14,12 @@ p, ul {
 p {
     margin: 0 0 1.5em;
 }
+a {
+    background-color: transparent;
+    color: #455a64;
+    text-decoration: none;
+    transition: color .1s ease-in-out;
+}
 img {
     max-width: 100%;
     height: auto;
