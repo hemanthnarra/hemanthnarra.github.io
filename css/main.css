@@ -14,6 +14,11 @@ p, ul {
 p {
     margin: 0 0 1.5em;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
 nav {
     background-color: white;
     position: sticky;
