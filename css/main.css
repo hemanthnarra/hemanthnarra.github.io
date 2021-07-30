@@ -11,6 +11,9 @@ p, ul {
     line-height: 1.4em;
     color: #333;
 }
+p {
+    margin: 0 0 1.5em;
+}
 nav {
     background-color: white;
     position: sticky;
