@@ -68,6 +68,9 @@ nav li, footer li {
     padding-left: 0;
     font-size: 1.25em;
 }
+.recent-posts h3 {
+    font-size: 1.5em;
+}
 .about {
     font-family: 'Nunito', sans-serif;
 }
@@ -84,5 +87,11 @@ nav li, footer li {
     }
     .about h3 {
         font-size: 1.25em
+    }
+    .recent-posts ul, .blog ul {
+        font-size: 1.05em;
+    }
+    .copy-right {
+        font-size: 1em;
     }
 }
