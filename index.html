@@ -9,12 +9,8 @@ title: Hemanth Kumar Narra, Introvert
         <h3>Recent posts </h3>
         <ul>
             {% for post in site.posts %}
-            <li>
-                <span>{{ site.time | date_to_string: "ordinal", "US" }}</span>
-                <p class="recent-post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
-            </li>
+            <li><span>{{ site.time | date_to_string: "ordinal", "US" }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
-
     </div>
 </div>
