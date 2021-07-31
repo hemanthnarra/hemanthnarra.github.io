@@ -50,6 +50,9 @@ nav {
     padding-top: 20px;
     border-top: 2px solid gold;
 }
+.current {
+    color: #455a64;
+}  
 .main, .blog, .about {
     padding-bottom: 20px;
 }
