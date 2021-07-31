@@ -5,6 +5,7 @@
 body {
     background-color: #fafafa;
     font-family: lato;
+    word-wrap: break-word;
     max-width: 740px;
     margin: auto;
 }
