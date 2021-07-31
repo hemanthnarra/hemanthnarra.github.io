@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300");
+/* font for about page  */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body {
     background-color: #fafafa;
@@ -65,4 +67,7 @@ nav li, footer li {
     list-style-type: none;
     padding-left: 0;
     font-size: 1.25em;
+}
+.about {
+    font-family: 'Nunito', sans-serif;
 }
