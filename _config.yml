@@ -2,6 +2,14 @@
 title: My Personal website
 tagline: Human | CA & CMA student | Investor | Python | Introvert  # it will display as the sub-title
 url: 'https://hemanthnarra.in'
+
+social:
+  name: Hemanth Kumar Narra
+  links:
+    - https://twitter.com/hemanthkumar_ca
+    - https://telegram.dog/hemanthkumarnarra
+    - https://www.instagram.com/hemanthkumarnarra/
+    - https://github.com/hemanthnarra
 # -------------------------------------------------------------------------
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
