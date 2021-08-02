@@ -1,3 +1,5 @@
 name: Hemanth Kumar Narra, Introvert
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-seo-tag
