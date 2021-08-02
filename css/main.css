@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,300");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 /* font for about page  */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body {
     background-color: #fafafa;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     word-wrap: break-word;
     max-width: 740px;
     margin: auto;
