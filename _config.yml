@@ -1,3 +1,8 @@
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+title: My Personal website
+tagline: Human | CA & CMA student | Investor | Python | Introvert  # it will display as the sub-title
+url: 'https://hemanthnarra.in'
+# -------------------------------------------------------------------------
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
