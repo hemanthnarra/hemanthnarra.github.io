@@ -68,6 +68,9 @@ nav li, footer li {
     padding-left: 0;
     font-size: 1.25em;
 }
+.post-title {
+    display: block;
+}
 .recent-posts h3 {
     font-size: 1.5em;
 }
