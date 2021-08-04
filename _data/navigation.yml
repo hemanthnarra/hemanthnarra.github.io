@@ -1,4 +1,4 @@
-- name: HOME
+- name: HOME    #navigation items that are to be used in navigation.html
   link: /
 - name: BLOG
   link: /blog/
