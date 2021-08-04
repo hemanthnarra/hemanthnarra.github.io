@@ -8,24 +8,12 @@ url: 'https://hemanthnarra.in'
 
 # SEO > author meta
 author: Hemanth Kumar Narra
-# SEO > twitter name meta
-twitter:
-  username: hemanthk_narra
-# SEO > site alias meta
-social:
-  name: Hemanth Kumar Narra
-  links:
-    - https://twitter.com/hemanthk_narra
-    - https://telegram.dog/hemanthkumarnarra
-    - https://www.instagram.com/hemanthkumarnarra/
-    - https://github.com/hemanthnarra
-    - https://hemanthkumarnarra.medium.com/
 # -------------------------------------------------------------------------
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Kolkata
 # -------------------------------------------------------------------------
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title
 plugins:
   - jekyll-seo-tag
   - jemoji
