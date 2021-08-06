@@ -7,7 +7,7 @@ title: Hemanth Kumar Narra's Blog
     <br>
     <ul class="blog-list">
         {% for post in site.posts %}
-        <li><span><mark>{{ post.date | date_to_string }}</mark></span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <li><span><mark>{{ post.date | date_to_string: "ordinal", "US" }}</mark></span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>            
 </div>
