@@ -33,6 +33,7 @@ github_username:  jekyll
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -57,10 +58,12 @@ plugins:
 timezone: Asia/Kolkata
 # -------------------------------------------------------------------------
 markdown: kramdown
-kramdown:
-  syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
+# kramdown:
+#   syntax_highlighter: coderay
+#   syntax_highlighter_opts:
+#     line_numbers: table
+#     bold_every: 5
     
-permalink: /blog/:title
+# permalink: /blog/:title
+paginate: 3
+paginate_path: /blog/page:num/
