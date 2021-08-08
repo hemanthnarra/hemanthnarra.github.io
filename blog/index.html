@@ -1,15 +1,39 @@
 ---
 layout: default
 title: Hemanth Kumar Narra's Blog
-pagination: 
-  enabled: true
 ---
 <div class="blog">
     <h2>{{ page.title }}</h2>
     <br>
     <ul class="blog-list">
-        {% for post in site.posts %}
-        <li><span><mark>{{ post.date | date_to_string: "ordinal", "US" }}</mark></span> &raquo; <a href="{{post.url | prepend: site.baseurl}}" title="{{ post.title }}">{{ post.title }}</a></li>
+        {% for post in paginator.posts %}
+        <li><span class="post-date"><mark>{{ post.date | date_to_string: "ordinal", "US" }}</mark></span> &raquo; <a href="{{post.url | prepend: site.baseurl}}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &#8592; Prev</a>
+        {% else %}
+        <span> &#8592; Prev</span>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+        {% elsif page == 1 %}
+        <a href="/blog/">{{ page }}</a>
+        {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &#8594; </a>
+        {% else %}
+        <span>Next &#8594; </span>
+        {% endif %}
+    </div>
+    {% endif %}
+<br>
     

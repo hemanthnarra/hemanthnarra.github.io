@@ -68,8 +68,15 @@ nav li, footer li {
     padding-left: 0;
     font-size: 1.25em;
 }
-.post-title {
-    display: block;
+.recent-posts li, .blog li {
+    margin-bottom: 16px;
+}
+.post-date {
+    margin-right: 16px;
+}
+.pagination a, .pagination span {
+    margin-left: 2px;
+    margin-right: 2px;
 }
 .recent-posts h3 {
     font-size: 1.5em;

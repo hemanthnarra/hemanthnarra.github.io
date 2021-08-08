@@ -10,18 +10,7 @@ description: Human | CA & CMA student | Investor | Python | Introvert
         <h3>Recent posts </h3>
         <ul>
             {% for post in site.posts %}
-            <li>
-                <span>
-                    <div class="post-date">
-                        {{ post.date | date_to_string: "ordinal", "US" }}
-                    </div>
-                </span>
-                <span>
-                    <div class="post-title">
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </div>
-                </span>
-            </li>
+            <li><span class="post-date">{{ post.date | date_to_string: "ordinal", "US" }}</span> &raquo; <a class="post-title" href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
     </div>
