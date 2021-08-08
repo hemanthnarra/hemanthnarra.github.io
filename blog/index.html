@@ -8,24 +8,8 @@ pagination:
     <h2>{{ page.title }}</h2>
     <br>
     <ul class="blog-list">
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
         <li><span><mark>{{ post.date | date_to_string: "ordinal", "US" }}</mark></span> &raquo; <a href="{{post.url | prepend: site.baseurl}}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
-    <!-- pagination -->
-    {% if paginator.total_pages > 1 %}
-    <ul>
-        {% if paginator.previous_page %}
-        <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-        </li>
-        {% endif %}
-        {% if paginator.next_page %}
-        <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-        </li>
-        {% endif %}
-    </ul>
-    {% endif %}           
-</div>
-
+    
