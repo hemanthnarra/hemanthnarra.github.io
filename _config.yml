@@ -14,7 +14,8 @@
 
 # my_variables
 title: Hemanth Kumar Narra # site title and also homepage header
-logo: \favicon.ico # "H" logo of the site 
+logo: \favicon.ico # "H" logo of the site
+author: Hemanth Kumar Narra # author of the site posts 
 description: >- # this means to ignore newlines until "baseurl:"
   Human | CA & CMA student | Investor | Python | Introvert
 baseurl: "" # the subpath of your site, e.g. /blog
