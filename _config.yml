@@ -19,7 +19,7 @@ author: Hemanth Kumar Narra # author of the site posts
 description: >- # this means to ignore newlines until "baseurl:"
   Human | CA & CMA student | Investor | Python | Introvert
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hemanthnarra.in/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hemanthnarra.in" # the base hostname & protocol for your site, e.g. http://example.com
 # social links used in footer
 gmail: https://mailto:hemanthkumarsuma799@gmail.com
 github: https://github.com/hemanthnarra
@@ -60,5 +60,5 @@ markdown: kramdown
     
 # permalink: /blog/:title # jekyll documentation specifies not to use permalink while using pagination 
 # pagination setting 
-paginate: 2
+paginate: 5
 paginate_path: "/blog/page:num/"
