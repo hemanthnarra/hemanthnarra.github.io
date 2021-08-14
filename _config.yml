@@ -31,6 +31,7 @@ year: 2021 # copy right year in the footer
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 ############################################################
 
@@ -62,3 +63,8 @@ markdown: kramdown
 # pagination setting 
 paginate: 5
 paginate_path: "/blog/page:num/"
+# jekyll-seo-tag twitter-card 
+twitter:
+  username: hemanthk_narra
+  card: summary
+

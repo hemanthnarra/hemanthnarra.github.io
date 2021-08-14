@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="{{ site.author }}">
+    <!-- jekyll-seo-tag plugin usage -->
+    {% seo %}
     <!-- link to the google 'lato' font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <!-- link to main style sheet -->
     <link rel="stylesheet" href="/css/main.css">
-    <!-- rss-feed plugin usage  -->
+    <!-- jekyll-rss-feed plugin usage  -->
     {% feed_meta %}
     <!-- page title  -->
     <title>{{ page.title }} | {{ site.description }}</title>
